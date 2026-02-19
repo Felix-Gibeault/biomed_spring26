@@ -55,7 +55,7 @@ header h2{
 header{
   background:
     linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
-    url("assets/neuron\ .jpg"); /* <-- change this path */
+    url("assets/neuron\ .jpg"); 
   background-size: cover;
   background-position: center;
   padding: 18px 16px 10px;

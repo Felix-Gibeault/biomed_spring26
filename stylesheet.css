@@ -1,27 +1,34 @@
 
 
 .text-container{
-    display: flex;
+  display: flex;
+  gap: 18px;
+  margin: 14px auto;
         }
 
 
+.Text{
+  flex: 1;
+  padding: 14px;
+  min-height: 140px;
 
-
-.text-container p{
-    width: 40%; /* Adjust to your preferred column size */
-    margin: 20px; /* Ensures it stays flush left */
-    text-align: justify; /* Aligns text within the paragraph */
-    margin-top: 20px;
-
-        span {
-        font-size: 20px;
-        text-align: left;
-        }
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
 }
-img {
-    margin-top: 20px;
-    aspect-ratio: 1 / 1;
+
+
+.BookCover{
+  flex: 1;
+  padding: 14px;
+  min-height: 140px;
+
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
 }
+
+
 
 * { box-sizing: border-box; }
 

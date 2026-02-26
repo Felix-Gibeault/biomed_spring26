@@ -84,16 +84,17 @@ footer { /*Used in: index, course_materials*/
   padding: 20px; 
   font-family: 'Times New Roman', Times, serif;
 }
-/* body > p{ 
+body > p{ 
   font-size: 14px;
   color: hwb(236 4% 76%);
   line-height: 1.4;
-  margin: 10px auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 body > p a{ 
   color: #2b5f93;
   text-decoration: underline; 
-} */
+} 
 
 /** { box-sizing: border-box; }*/

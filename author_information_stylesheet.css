@@ -35,6 +35,6 @@
   object-fit: cover;
   border: 1px solid #aab7c6;
   background: #fff;
-  *flex: 0 0 auto;
-  align-item: center;
+  flex: 0 0 auto;
+  align-items: center;
 }

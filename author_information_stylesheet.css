@@ -13,7 +13,7 @@
 
   display: flex;
   gap: 12px;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 /* Authors Descriptions */
@@ -32,13 +32,11 @@
 .row-2{
   gap: 18px;
   margin: 10px auto;
-  margin-left:500px;
-  margin-right:500px;
-  max-width: 250px;
-  /* column-count: 2; */
+  max-width: 500px;
+  column-count: 2;
 }
 
-
+/*First image column*/
 .Images{
   background: #dbe6f2;
   border: 1px solid #c2cfdd;
@@ -47,8 +45,26 @@
   gap: 14px;
 }
 
+/*Second image column*/
+.Images-2{
+  background: #dbe6f2;
+  border: 1px solid #c2cfdd;
+  padding: 5px;
+  min-height: 100px;
+  gap: 14px;
+}
 
 .Images img{
+  display: block;
+  margin: 5px auto;
+  width: 155px;
+  height: 215px;
+  object-fit: cover;
+  border: 1px solid #aab7c6;
+  background: #fff;
+}
+
+.Images-2 img{
   display: block;
   margin: 5px auto;
   width: 155px;
